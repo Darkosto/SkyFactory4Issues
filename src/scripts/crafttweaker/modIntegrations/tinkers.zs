@@ -100,6 +100,18 @@ function init() {
 	tinkers.addMelting(<liquid:bacon> * 1000, <sky_orchards:amber_bacon>);
 	tinkers.addMelting(<liquid:donut> * 1000, <sky_orchards:amber_donut>);
 	tinkers.addMelting(<liquid:bacon> * 250, <minecraft:porkchop>);
+  	tinkers.addMelting(<liquid:quartz> * 2664, <sky_orchards:amber_quartz>);
+  	tinkers.addMelting(<liquid:clay> * 576, <sky_orchards:amber_clay>);
+  	tinkers.addMelting(<liquid:quartz> * 1332, <sky_orchards:amber_quartz>);
+  	tinkers.addMelting(<liquid:diamond> * 666, <sky_orchards:amber_diamond>);
+  	tinkers.addMelting(<liquid:emerald> * 666, <sky_orchards:amber_emerald>);
+  	tinkers.addMelting(<liquid:lapis> * 5994, <sky_orchards:amber_lapis>);
+  
+  	// Gem melting
+  	tinkers.addMelting(<liquid:lapis> * 666, <ore:gemLapis>);
+  	tinkers.addMelting(<liquid:quartz> * 666, <ore:gemQuartz>);
+
+
 
 	//Cast Melting
 	tinkers.addMelting(<liquid:gold> * 288, <tconstruct:cast>);
@@ -145,6 +157,8 @@ function init() {
 	tinkers.addCastingTable(<tp:reinforced_obsidian_ingot>, <tconstruct:cast_custom>, <liquid:reinforced_obsidian>, 144, false, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_ardite>, <tconstruct:slime_sapling:2>, <liquid:ardite>, 144, true, 200);
 	tinkers.addCastingTable(<sky_orchards:sapling_cobalt>, <tconstruct:slime_sapling:1>, <liquid:cobalt>, 144, true, 200);
+  	tinkers.addCastingTable(<minecraft:quartz>, <tconstruct:cast_custom:2>, <liquid:quartz>, 666, false, 200);
+  	tinkers.addCastingTable(<minecraft:lapis_lazuli>, <tconstruct:cast_custom:2>, <liquid:lapis>, 666, false, 200);
 
 	//Ender Pearl and Seed Casting
 	tinkers.addCastingTable(<minecraft:ender_pearl>, <tconstruct:cast_custom:2>, <liquid:ender>, 250, false, 200);
@@ -202,6 +216,8 @@ function init() {
 	tinkers.addCastingBasin(<thermalfoundation:glass_alloy:7>, <minecraft:obsidian>, <liquid:enderium>, 144, true, 160);
 
 	tinkers.addCastingBasin(<minecraft:glowstone>, null, <liquid:glowstone>, 1000, true, 160);
+  	tinkers.addCastingBasin(<minecraft:quartz_block>, null, <liquid:quartz>, 2664, true, 160);
+  	tinkers.addCastingBasin(<minecraft:lapis_block>, null, <liquid:lapis>, 5994, true, 160);
 
 	//Casting liquid redstone into dust and blocks
 	tinkers.addCastingTable(<minecraft:redstone:0>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
